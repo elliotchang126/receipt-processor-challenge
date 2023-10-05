@@ -22,7 +22,7 @@ const calculatePoints = (receipt) => {
     points += alphaNumChars.length; // 1 pt for every alphanumeric character
 
     // Rule 2: 50 points for round totals
-    if (total % 1 === 0) points += 50; // if total ihas no remainder add 50 points
+    if (total % 1 === 0) points += 50; // if total it has no remainder add 50 points
 
     // Rule 3: 25 points for being a multiple of 0.25
     if (total % 0.25 === 0) points += 25; // if total has no remainder add 25 points
